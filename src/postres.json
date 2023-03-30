@@ -1,0 +1,47 @@
+[
+  {
+    "nombre": "cake",
+    "sabor":{
+      "1": "fresa",
+      "2": "chocolate"
+    },
+    "precio":"$55",
+    "cantidad": "5"
+  },
+  {
+    "nombre": "cake",
+    "sabor":{
+      "1": "fresa",
+      "2": "chocolate"
+    },
+    "precio":"$55",
+    "cantidad": "5"
+  },
+  {
+    "nombre": "cake",
+    "sabor":{
+      "1": "fresa",
+      "2": "chocolate"
+    },
+    "precio":"$55",
+    "cantidad": "5"
+  },
+  {
+    "nombre": "cake",
+    "sabor":{
+      "1": "fresa",
+      "2": "chocolate"
+    },
+    "precio":"$55",
+    "cantidad": "5"
+  },
+  {
+    "nombre": "cake",
+    "sabor":{
+      "1": "fresa",
+      "2": "chocolate"
+    },
+    "precio":"$55",
+    "cantidad": "5"
+  }
+]
