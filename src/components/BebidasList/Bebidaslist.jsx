@@ -1,8 +1,9 @@
 import React from 'react'
+import './BebidasList.css'
 
 function Bebidaslist() {
   return (
-    <div className='bg-fondo-blue flex h-full w-full justify-center items-center'>
+    <div className='containerBebidas' >
     <p>Bebidas Kawappy</p>
   </div>
   )

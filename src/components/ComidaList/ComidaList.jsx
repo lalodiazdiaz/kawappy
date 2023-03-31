@@ -1,8 +1,9 @@
 import React from 'react'
+import './ComidasList.css'
 
 function ComidaList() {
   return (
-    <div className='bg-fondo-blue flex h-full w-full justify-center items-center'>
+    <div className='containerComidas'>
     <p>Comidas Kawappy</p>
   </div>
   )

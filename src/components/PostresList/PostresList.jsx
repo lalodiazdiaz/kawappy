@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import './PostresList.css'
 
 function PostresList() {
   return (
-    <div className='bg-fondo-blue flex h-full w-full justify-center items-center'>
-      <p>Postres Kawappy</p>
+    <div className="containerPostres">
+     <p>Postres kawappy</p>
     </div>
-  )
+  );
 }
 
-export default PostresList
+export default PostresList;

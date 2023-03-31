@@ -1,0 +1,107 @@
+.containerHome {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.conteinerSidebar {
+  background-color: #fe0058;
+  display: flex;
+  height: 100%;
+  width: 20%;
+  flex-direction: column;
+  position: absolute;
+  border-right: 3px solid white;
+}
+main {
+  display: flex;
+  align-self: flex-start;
+  height: 100%;
+  width: 80%;
+  margin-left: 20%;
+}
+
+.containerLogoSidebar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  width: 100%;
+}
+
+.logoSidebar {
+  height: 100%;
+}
+
+.containerOptions {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: justify;
+  height: 30%;
+  width: 100%;
+}
+
+.optionNAv {
+  width: 100%;
+  text-decoration: none;
+  margin-top: 5%;
+}
+
+p {
+  font-size: large;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  margin: 0;
+}
+
+.resMenu {
+  display: none;
+}
+
+
+@media (max-width: 700px) {
+  .containerHome {
+    flex-direction: column;
+  }
+  main {
+    width: 100%;
+    margin-left: 0;
+  }
+  .closeSidebar {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    top: 8%;
+    height: 92%;
+    animation: slide 0.5s backwards 1;
+    position: absolute;
+    background-color: #fe0058;
+  }
+
+  .conteinerSidebar {
+    display: none;
+  }
+
+  .resMenu {
+    position: fixed;
+    display: flex;
+    background-color: #fe0058;
+    height: 8%;
+    width: 100%;
+    align-items: center;
+  }
+
+  .menuButton{
+    width: 50px;
+    height: 80%;
+  }
+
+  .btnOpenMenu {
+    width: 15%;
+    border: 0;
+    margin-left: 10px;
+  }
+}
