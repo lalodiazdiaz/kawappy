@@ -12,6 +12,7 @@
   flex-direction: column;
   position: absolute;
   border-right: 3px solid white;
+  justify-content: space-between;
 }
 main {
   display: flex;
@@ -27,6 +28,7 @@ main {
   align-items: center;
   height: 30%;
   width: 100%;
+  margin-top: 5%;
 }
 
 .logoSidebar {
@@ -36,11 +38,12 @@ main {
 .containerOptions {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: flex-star  t;
   align-items: flex-start;
   text-align: justify;
   height: 30%;
   width: 100%;
+  margin-top: 5%;
 }
 
 .optionNAv {
@@ -49,7 +52,14 @@ main {
   margin-top: 5%;
 }
 
-p {
+.optionNAv:hover{
+  width: 98%;
+  border-radius: 5px;
+  background-color: black;
+  border-left: 5px solid white;
+}
+
+.options{
   font-size: large;
   text-align: center;
   color: white;
@@ -61,6 +71,30 @@ p {
   display: none;
 }
 
+.containerFooter{
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.contInfo{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.whatsLogo{
+  margin-right: 10px;
+  height: 25px;
+}
 
 @media (max-width: 700px) {
   .containerHome {
@@ -79,6 +113,8 @@ p {
     animation: slide 0.5s backwards 1;
     position: absolute;
     background-color: #fe0058;
+    justify-content: space-between;
+
   }
 
   .conteinerSidebar {
