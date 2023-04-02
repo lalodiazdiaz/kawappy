@@ -114,6 +114,7 @@ a{
     position: absolute;
     background-color: #fe0058;
     justify-content: space-between;
+    z-index: 1;
 
   }
 
@@ -131,12 +132,13 @@ a{
   }
 
   .menuButton{
-    width: 50px;
-    height: 80%;
+    width: 100%;
+    height: 100%;
   }
 
   .btnOpenMenu {
-    width: 15%;
+    height: 80%;
+    width: 11%;
     border: 0;
     margin-left: 10px;
   }

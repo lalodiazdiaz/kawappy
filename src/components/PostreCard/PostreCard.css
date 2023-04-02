@@ -1,0 +1,45 @@
+.postreContainer {
+  border: 3px solid lightgray;
+  border-radius: 5px;
+  margin: 15px;
+  margin-top: 25px;
+  box-shadow: 2px 5px 4px gray;
+  background-color: #fe0058;
+  transition: transform .5s; 
+  border-radius: 10px;
+}
+.postreContainer:hover{
+  transform: scale(1.1); 
+}
+.postreImg {
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+.postreInfo{
+ height: 200px;
+ display: flex;
+ flex-direction: column;
+ margin: 5px;
+ background-color: white;
+ border-radius: 5px;
+}
+
+.postreInfo h1{
+  text-align: center;
+  margin: 0;
+}
+.postreInfo p{
+  text-align: center;
+  margin: 0;
+  margin-top: 1%;
+  font-size: 18px;
+  font-weight: bold; 
+}
+
+@media (max-width:600px) {
+  .postreInfo{
+    height: 180px;
+  }
+}
