@@ -1,9 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import './PostreCard.css'
+import Modal from "../Modal/Modal";
 
-function PostreCard({postre}) {
+function PostreCard({postre, handleModal}) {
+  const [openModal, setopenModal] = useState(false);
+
+  const handleClickModal=()=>{
+   if (openModal) {
+    setopenModal(false)
+   }else{
+    setopenModal(true)
+   }
+  }
+
   return (
-    <div className="postreContainer">
+    <>
+
+    <div className="postreContainer" onClick={handleClickModal}>
       <div>
         <img 
         className="postreImg"
@@ -22,6 +35,8 @@ function PostreCard({postre}) {
         )}
       </div>
     </div>
+    <Modal open={openModal} handleModal={handleClickModal} data={postre} />
+    </>
   );
 }
 
