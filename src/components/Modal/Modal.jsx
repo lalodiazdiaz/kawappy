@@ -8,7 +8,7 @@ function Modal({ open, handleModal,data }) {
       <div className="backModal"></div>
       <div className="frontModal">
         <div className="contImage">
-          <img src="https://static.onecms.io/wp-content/uploads/sites/43/2022/04/07/193307-easy-mochi-3x2-245.jpg" />
+          <img src="https://static.onecms.io/wp-content/uploads/sites/43/2022/04/07/193307-easy-mochi-3x2-245.jpg" alt="" />
         </div>
         <div className="modalInfo">
         <h1>{data.nombre}</h1>

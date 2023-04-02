@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./PostresList.css";
 import postres from '../../jsonFiles/postres.json'
 import PostreCard from "../PostreCard/PostreCard";
-import Modal from "../Modal/Modal";
 
 function PostresList() {
   const [openModal, setopenModal] = useState(false);
