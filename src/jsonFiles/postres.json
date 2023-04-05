@@ -1,119 +1,42 @@
 [
   {
-    "nombre": "cake",
-    "sabor":[
-       "fresa",
-       "chocolate"
-    ],
-    "precio":"$55",
-    "cantidad": "5"
+    "nombre": "Mochi",
+    "sabor": ["Fresa", "Chocolate", "Zarzamora", "Camote"],
+    "precio": "$12 c/u"
   },
   {
-    "nombre": "cake",
-    "sabor":[
-       "fresa",
-       "chocolate"
-    ],
-    "precio":"$55",
-    "cantidad": "5"
+    "nombre": "RollCake",
+    "sabor": ["Fresa", "Chocolate", "Mango", "Zarzamora"],
+    "precio": "$50 c/u"
   },
   {
-    "nombre": "cake",
-    "sabor":[
-       "fresa",
-       "chocolate"
-    ],
-    "precio":"$55",
-    "cantidad": "5"
+    "nombre": "RollCake",
+    "sabor": ["Macha"],
+    "precio": "$75"
   },
   {
-    "nombre": "cake",
-    "sabor":[
-       "fresa",
-       "chocolate"
-    ],
-    "precio":"$55",
-    "cantidad": "5"
+    "nombre": "MoonCake",
+    "sabor": ["Semillas"],
+    "precio": "$45 c/u"
   },
   {
-    "nombre": "cake",
-    "sabor":[
-       "fresa",
-       "chocolate"
-    ],
-    "precio":"$55",
-    "cantidad": "5"
+    "nombre": "Souffle",
+    "sabor": ["Queso"],
+    "precio": "$80 c/u"
   },
   {
-    "nombre": "cake",
-    "sabor":[
-       "fresa",
-       "chocolate"
-    ],
-    "precio":"$55",
-    "cantidad": "5"
+    "nombre": "Dango",
+    "sabor": ["Fresa", "Tofu", "Macha"],
+    "precio": "$45"
   },
   {
-    "nombre": "cake",
-    "sabor":[
-       "fresa",
-       "chocolate"
-    ],
-    "precio":"$55",
-    "cantidad": "5"
+    "nombre": "Dorayaki",
+    "sabor": ["Fresa", "Frijol"],
+    "precio": "$45 c/u"
   },
   {
-    "nombre": "cake",
-    "sabor":[
-       "fresa",
-       "chocolate"
-    ],
-    "precio":"$55",
-    "cantidad": "5"
-  },
-  {
-    "nombre": "cake",
-    "sabor":[
-       "fresa",
-       "chocolate"
-    ],
-    "precio":"$55",
-    "cantidad": "5"
-  },
-  {
-    "nombre": "cake",
-    "sabor":[
-       "fresa",
-       "chocolate"
-    ],
-    "precio":"$55",
-    "cantidad": "5"
-  },
-  {
-    "nombre": "cake",
-    "sabor":[
-       "fresa",
-       "chocolate"
-    ],
-    "precio":"$55",
-    "cantidad": "5"
-  },
-  {
-    "nombre": "cake",
-    "sabor":[
-       "fresa",
-       "chocolate"
-    ],
-    "precio":"$55",
-    "cantidad": "5"
-  },
-  {
-    "nombre": "cake",
-    "sabor":[
-       "fresa",
-       "chocolate"
-    ],
-    "precio":"$55",
-    "cantidad": "5"
+    "nombre": "Daifuku",
+    "sabor": ["Chocolate"],
+    "precio": "$15 c/u"
   }
 ]
